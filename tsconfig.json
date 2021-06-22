@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "outDir": "./dist",
+    "target": "ES2018" ,
+    "module": "commonjs" 
+  },
+  
+  "watchOptions": {
+    "watchFile": "useFsEvents",
+    "watchDirectory": "useFsEvents",
+
+    "fallbackPolling": "dynamicPriority"
+  },
+
+  "include": ["src/**/*"],  
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
